@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HeartWatchface.Views.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:res="clr-namespace:HeartWatchface.Resources"
+    xmlns:e="clr-namespace:ElottieSharp.Forms;assembly=ElottieSharp.Forms"
+    xmlns:viewModels="clr-namespace:HeartWatchface.ViewModels">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <e:ElottieAnimationView x:Name="measuringAnimation"
+                                    AbsoluteLayout.LayoutFlags="All"
+                                    AbsoluteLayout.LayoutBounds=".5, .5, 1, 1"
+                                    AnimationFile="animation.json"
+                                    IsVisible="True"
+                                    AutoPlay="True"
+                                    Speed="{Binding Speed}"
+                                    Rotation="{Binding }"
+                                    AutoRepeat="True" />
+            <StackLayout
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5, .5, 1, 1"
+                HorizontalOptions="CenterAndExpand" 
+                VerticalOptions="CenterAndExpand">
+                <StackLayout Orientation="Vertical"
+                             AbsoluteLayout.LayoutFlags="All"
+                             AbsoluteLayout.LayoutBounds=".5, .25, 1, .5">
+                    <StackLayout
+                    HorizontalOptions="CenterAndExpand"
+                    Orientation="Horizontal">
+                        <Label Text="Years: "/>
+                        <Label Text="{Binding Years}"/>
+                    </StackLayout>
+                    <StackLayout
+                    HorizontalOptions="CenterAndExpand"
+                    Orientation="Horizontal">
+                        <Label Text="Fc Max: "/>
+                        <Label Text="{Binding FCMax}"/>
+                    </StackLayout>
+                    <StackLayout
+                    HorizontalOptions="CenterAndExpand"
+                    Orientation="Horizontal">
+                        <Label Text="BPM: "/>
+                        <Label Text="{Binding CurrentHeartBeat}"/>
+                    </StackLayout>
+                </StackLayout>
+                
+                <StackLayout
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Orientation="Horizontal">
+                    <Label
+                    Padding="10,0,10,10"
+                    Text="{Binding Text}"
+                    FontAttributes="Bold"
+                    FontSize="30"/>
+                    <Label HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="%"/>
+                </StackLayout>
+                <Button HorizontalOptions="Center" Opacity="0.5" BackgroundColor="{Binding ButtonColor}" Text="{Binding ButtonText}" Command="{Binding Click}"/>
+            </StackLayout>
+        </AbsoluteLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

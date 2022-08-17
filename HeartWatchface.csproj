@@ -1,0 +1,38 @@
+﻿<Project Sdk="Tizen.NET.Sdk/1.1.5" ToolsVersion="Current">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>tizen40</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\AppResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\DatePickerPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ElottieSharp.Forms" Version="0.9.5-preview" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-preview.7.22375.6" />
+    <PackageReference Include="SQLite" Version="3.13.0" />
+    <PackageReference Include="sqlite-net-base" Version="1.6.292" />
+    <PackageReference Include="SQLitePCLRaw.provider.sqlite3.netstandard11" Version="1.1.14" />
+    <PackageReference Include="Tizen.NET.API8" Version="8.0.0.15631" />
+    <PackageReference Include="Tizen.Wearable.CircularUI" Version="1.5.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.7.0.1351" />
+  </ItemGroup>
+
+</Project>

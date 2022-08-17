@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\david\\Documents\\MyProject\\watchface2\\HeartWatchface\\HeartWatchface.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\david\\Documents\\MyProject\\watchface2\\HeartWatchface\\HeartWatchface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\david\\Documents\\MyProject\\watchface2\\HeartWatchface\\HeartWatchface.csproj",
+        "projectName": "HeartWatchface",
+        "projectPath": "C:\\Users\\david\\Documents\\MyProject\\watchface2\\HeartWatchface\\HeartWatchface.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\Documents\\MyProject\\watchface2\\HeartWatchface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "tizen40"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "tizen40": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "tizen40": {
+          "dependencies": {
+            "ElottieSharp.Forms": {
+              "target": "Package",
+              "version": "[0.9.5-preview, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.9.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22375.6, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "SQLitePCLRaw.provider.sqlite3.netstandard11": {
+              "target": "Package",
+              "version": "[1.1.14, )"
+            },
+            "Tizen.NET": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0.15631, )",
+              "autoReferenced": true
+            },
+            "Tizen.NET.API8": {
+              "target": "Package",
+              "version": "[8.0.0.15631, )"
+            },
+            "Tizen.Wearable.CircularUI": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.7.0.1351, )"
+            },
+            "sqlite-net-base": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

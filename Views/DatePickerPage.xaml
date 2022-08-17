@@ -1,0 +1,21 @@
+﻿<ContentPage
+    x:Class="HeartWatchface.Views.DatePickerPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:w="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms">
+    <ContentPage.Content>
+        <StackLayout
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"
+            BackgroundColor="Black"
+            Orientation="Vertical"
+            >
+            <Label Text="Seleziona data di nascita"/>
+
+            <DatePicker x:Name="timeSelector"
+                        BackgroundColor="Black"
+                Date="{Binding Datetime, Mode=TwoWay}" />
+            <Button Command="{Binding ButtonPressedExit}" Text="OK" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

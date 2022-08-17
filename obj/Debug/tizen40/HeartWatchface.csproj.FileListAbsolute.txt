@@ -1,0 +1,16 @@
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\HeartWatchface.csprojAssemblyReference.cache
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\HeartWatchface.Resources.AppResources.resources
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\HeartWatchface.csproj.GenerateResource.cache
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\App.xaml.g.cs
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\AppShell.xaml.g.cs
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\Views\DatePickerPage.xaml.g.cs
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\Views\MainPage.xaml.g.cs
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\HeartWatchface.AssemblyInfoInputs.cache
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\HeartWatchface.AssemblyInfo.cs
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\HeartWatchface.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\bin\Debug\tizen40\HeartWatchface.deps.json
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\bin\Debug\tizen40\HeartWatchface.dll
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\bin\Debug\tizen40\HeartWatchface.pdb
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\XamlC.stamp
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\HeartWatchface.dll
+C:\Users\david\Documents\MyProject\watchface2\HeartWatchface\obj\Debug\tizen40\HeartWatchface.pdb
